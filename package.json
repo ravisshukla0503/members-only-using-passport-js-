@@ -1,0 +1,11 @@
+{
+  "name": "members-only",
+  "version": "1.0.0",
+  "description": "passport js usiing for authenticate login users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ravi",
+  "license": "ISC"
+}
