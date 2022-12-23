@@ -1,7 +1,6 @@
 /** @format */
 
 const configModel = require("../model/configModel");
-const { findOne } = require("../model/usersModel");
 const usersModel = require("../model/usersModel");
 const bcrypt = require("../utils/bcrypt");
 
@@ -35,6 +34,7 @@ exports.renderLoginPage = (req, res) => {
 };
 
 exports.login = async (req, res) => {
+  console.log("logged in");
   res.redirect("message");
 };
 
